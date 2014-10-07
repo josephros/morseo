@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8A2923419E2FD46000FF3FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A2923319E2FD46000FF3FC /* Cocoa.framework */; };
+		D8A2923E19E2FD46000FF3FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8A2923C19E2FD46000FF3FC /* InfoPlist.strings */; };
+		D8A2924019E2FD46000FF3FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2923F19E2FD46000FF3FC /* main.m */; };
+		D8A2924419E2FD46000FF3FC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D8A2924219E2FD46000FF3FC /* Credits.rtf */; };
+		D8A2924719E2FD46000FF3FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2924619E2FD46000FF3FC /* AppDelegate.m */; };
+		D8A2924A19E2FD46000FF3FC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A2924819E2FD46000FF3FC /* MainMenu.xib */; };
+		D8A2924C19E2FD46000FF3FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A2924B19E2FD46000FF3FC /* Images.xcassets */; };
+		D8A2925319E2FD46000FF3FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A2925219E2FD46000FF3FC /* XCTest.framework */; };
+		D8A2925419E2FD46000FF3FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A2923319E2FD46000FF3FC /* Cocoa.framework */; };
+		D8A2925C19E2FD46000FF3FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8A2925A19E2FD46000FF3FC /* InfoPlist.strings */; };
+		D8A2925E19E2FD46000FF3FC /* MorseoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2925D19E2FD46000FF3FC /* MorseoTests.m */; };
+		D8A2926B19E2FE80000FF3FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A2926A19E2FE80000FF3FC /* QuartzCore.framework */; };
+		D8A2927019E308CA000FF3FC /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A2926F19E308CA000FF3FC /* Quartz.framework */; };
+		D8A2927319E313B9000FF3FC /* MorseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2927219E313B9000FF3FC /* MorseView.m */; };
+		D8A2927619E313EA000FF3FC /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2927519E313EA000FF3FC /* MainView.m */; };
+		D8A2927C19E317D5000FF3FC /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2927B19E317D5000FF3FC /* MyWindow.m */; };
+		D8B3766819E376A10076A666 /* CGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B3766719E376A10076A666 /* CGUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8A2925519E2FD46000FF3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8A2922819E2FD46000FF3FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8A2922F19E2FD46000FF3FC;
+			remoteInfo = Morseo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8A2923019E2FD46000FF3FC /* Morseo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morseo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A2923319E2FD46000FF3FC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D8A2923619E2FD46000FF3FC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D8A2923719E2FD46000FF3FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D8A2923819E2FD46000FF3FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8A2923B19E2FD46000FF3FC /* Morseo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Morseo-Info.plist"; sourceTree = "<group>"; };
+		D8A2923D19E2FD46000FF3FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8A2923F19E2FD46000FF3FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8A2924119E2FD46000FF3FC /* Morseo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Morseo-Prefix.pch"; sourceTree = "<group>"; };
+		D8A2924319E2FD46000FF3FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D8A2924519E2FD46000FF3FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8A2924619E2FD46000FF3FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8A2924919E2FD46000FF3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D8A2924B19E2FD46000FF3FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8A2925119E2FD46000FF3FC /* MorseoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A2925219E2FD46000FF3FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D8A2925919E2FD46000FF3FC /* MorseoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MorseoTests-Info.plist"; sourceTree = "<group>"; };
+		D8A2925B19E2FD46000FF3FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8A2925D19E2FD46000FF3FC /* MorseoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseoTests.m; sourceTree = "<group>"; };
+		D8A2926A19E2FE80000FF3FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D8A2926F19E308CA000FF3FC /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		D8A2927119E313B9000FF3FC /* MorseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseView.h; sourceTree = "<group>"; };
+		D8A2927219E313B9000FF3FC /* MorseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseView.m; sourceTree = "<group>"; };
+		D8A2927419E313EA000FF3FC /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		D8A2927519E313EA000FF3FC /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		D8A2927A19E317D5000FF3FC /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		D8A2927B19E317D5000FF3FC /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
+		D8B3766619E376A10076A666 /* CGUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUtil.h; sourceTree = "<group>"; };
+		D8B3766719E376A10076A666 /* CGUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8A2922D19E2FD46000FF3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A2927019E308CA000FF3FC /* Quartz.framework in Frameworks */,
+				D8A2926B19E2FE80000FF3FC /* QuartzCore.framework in Frameworks */,
+				D8A2923419E2FD46000FF3FC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A2924E19E2FD46000FF3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A2925419E2FD46000FF3FC /* Cocoa.framework in Frameworks */,
+				D8A2925319E2FD46000FF3FC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8A2922719E2FD46000FF3FC = {
+			isa = PBXGroup;
+			children = (
+				D8A2923919E2FD46000FF3FC /* Morseo */,
+				D8A2925719E2FD46000FF3FC /* MorseoTests */,
+				D8A2923219E2FD46000FF3FC /* Frameworks */,
+				D8A2923119E2FD46000FF3FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8A2923119E2FD46000FF3FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8A2923019E2FD46000FF3FC /* Morseo.app */,
+				D8A2925119E2FD46000FF3FC /* MorseoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8A2923219E2FD46000FF3FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8A2926F19E308CA000FF3FC /* Quartz.framework */,
+				D8A2926A19E2FE80000FF3FC /* QuartzCore.framework */,
+				D8A2923319E2FD46000FF3FC /* Cocoa.framework */,
+				D8A2925219E2FD46000FF3FC /* XCTest.framework */,
+				D8A2923519E2FD46000FF3FC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A2923519E2FD46000FF3FC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8A2923619E2FD46000FF3FC /* AppKit.framework */,
+				D8A2923719E2FD46000FF3FC /* CoreData.framework */,
+				D8A2923819E2FD46000FF3FC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D8A2923919E2FD46000FF3FC /* Morseo */ = {
+			isa = PBXGroup;
+			children = (
+				D8B3766C19E3F1570076A666 /* Views */,
+				D8B3766519E376880076A666 /* Utils */,
+				D8A2924519E2FD46000FF3FC /* AppDelegate.h */,
+				D8A2924619E2FD46000FF3FC /* AppDelegate.m */,
+				D8A2924819E2FD46000FF3FC /* MainMenu.xib */,
+				D8A2927419E313EA000FF3FC /* MainView.h */,
+				D8A2927519E313EA000FF3FC /* MainView.m */,
+				D8A2924B19E2FD46000FF3FC /* Images.xcassets */,
+				D8A2923A19E2FD46000FF3FC /* Supporting Files */,
+				D8A2927A19E317D5000FF3FC /* MyWindow.h */,
+				D8A2927B19E317D5000FF3FC /* MyWindow.m */,
+			);
+			path = Morseo;
+			sourceTree = "<group>";
+		};
+		D8A2923A19E2FD46000FF3FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A2923B19E2FD46000FF3FC /* Morseo-Info.plist */,
+				D8A2923C19E2FD46000FF3FC /* InfoPlist.strings */,
+				D8A2923F19E2FD46000FF3FC /* main.m */,
+				D8A2924119E2FD46000FF3FC /* Morseo-Prefix.pch */,
+				D8A2924219E2FD46000FF3FC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8A2925719E2FD46000FF3FC /* MorseoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8A2925D19E2FD46000FF3FC /* MorseoTests.m */,
+				D8A2925819E2FD46000FF3FC /* Supporting Files */,
+			);
+			path = MorseoTests;
+			sourceTree = "<group>";
+		};
+		D8A2925819E2FD46000FF3FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A2925919E2FD46000FF3FC /* MorseoTests-Info.plist */,
+				D8A2925A19E2FD46000FF3FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8B3766519E376880076A666 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D8B3766919E376A80076A666 /* CoreGraphics */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D8B3766919E376A80076A666 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				D8B3766619E376A10076A666 /* CGUtil.h */,
+				D8B3766719E376A10076A666 /* CGUtil.m */,
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		D8B3766C19E3F1570076A666 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8A2927119E313B9000FF3FC /* MorseView.h */,
+				D8A2927219E313B9000FF3FC /* MorseView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8A2922F19E2FD46000FF3FC /* Morseo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A2926119E2FD46000FF3FC /* Build configuration list for PBXNativeTarget "Morseo" */;
+			buildPhases = (
+				D8A2922C19E2FD46000FF3FC /* Sources */,
+				D8A2922D19E2FD46000FF3FC /* Frameworks */,
+				D8A2922E19E2FD46000FF3FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Morseo;
+			productName = Morseo;
+			productReference = D8A2923019E2FD46000FF3FC /* Morseo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8A2925019E2FD46000FF3FC /* MorseoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A2926419E2FD46000FF3FC /* Build configuration list for PBXNativeTarget "MorseoTests" */;
+			buildPhases = (
+				D8A2924D19E2FD46000FF3FC /* Sources */,
+				D8A2924E19E2FD46000FF3FC /* Frameworks */,
+				D8A2924F19E2FD46000FF3FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8A2925619E2FD46000FF3FC /* PBXTargetDependency */,
+			);
+			name = MorseoTests;
+			productName = MorseoTests;
+			productReference = D8A2925119E2FD46000FF3FC /* MorseoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8A2922819E2FD46000FF3FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Joseph Ros";
+				TargetAttributes = {
+					D8A2925019E2FD46000FF3FC = {
+						TestTargetID = D8A2922F19E2FD46000FF3FC;
+					};
+				};
+			};
+			buildConfigurationList = D8A2922B19E2FD46000FF3FC /* Build configuration list for PBXProject "Morseo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8A2922719E2FD46000FF3FC;
+			productRefGroup = D8A2923119E2FD46000FF3FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8A2922F19E2FD46000FF3FC /* Morseo */,
+				D8A2925019E2FD46000FF3FC /* MorseoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8A2922E19E2FD46000FF3FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A2923E19E2FD46000FF3FC /* InfoPlist.strings in Resources */,
+				D8A2924C19E2FD46000FF3FC /* Images.xcassets in Resources */,
+				D8A2924419E2FD46000FF3FC /* Credits.rtf in Resources */,
+				D8A2924A19E2FD46000FF3FC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A2924F19E2FD46000FF3FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A2925C19E2FD46000FF3FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8A2922C19E2FD46000FF3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A2924719E2FD46000FF3FC /* AppDelegate.m in Sources */,
+				D8A2927619E313EA000FF3FC /* MainView.m in Sources */,
+				D8A2927319E313B9000FF3FC /* MorseView.m in Sources */,
+				D8A2927C19E317D5000FF3FC /* MyWindow.m in Sources */,
+				D8A2924019E2FD46000FF3FC /* main.m in Sources */,
+				D8B3766819E376A10076A666 /* CGUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A2924D19E2FD46000FF3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A2925E19E2FD46000FF3FC /* MorseoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8A2925619E2FD46000FF3FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8A2922F19E2FD46000FF3FC /* Morseo */;
+			targetProxy = D8A2925519E2FD46000FF3FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8A2923C19E2FD46000FF3FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A2923D19E2FD46000FF3FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8A2924219E2FD46000FF3FC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A2924319E2FD46000FF3FC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D8A2924819E2FD46000FF3FC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A2924919E2FD46000FF3FC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D8A2925A19E2FD46000FF3FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A2925B19E2FD46000FF3FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8A2925F19E2FD46000FF3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D8A2926019E2FD46000FF3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D8A2926219E2FD46000FF3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Morseo/Morseo-Prefix.pch";
+				INFOPLIST_FILE = "Morseo/Morseo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8A2926319E2FD46000FF3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Morseo/Morseo-Prefix.pch";
+				INFOPLIST_FILE = "Morseo/Morseo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D8A2926519E2FD46000FF3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Morseo.app/Contents/MacOS/Morseo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Morseo/Morseo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MorseoTests/MorseoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D8A2926619E2FD46000FF3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Morseo.app/Contents/MacOS/Morseo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Morseo/Morseo-Prefix.pch";
+				INFOPLIST_FILE = "MorseoTests/MorseoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8A2922B19E2FD46000FF3FC /* Build configuration list for PBXProject "Morseo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A2925F19E2FD46000FF3FC /* Debug */,
+				D8A2926019E2FD46000FF3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A2926119E2FD46000FF3FC /* Build configuration list for PBXNativeTarget "Morseo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A2926219E2FD46000FF3FC /* Debug */,
+				D8A2926319E2FD46000FF3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A2926419E2FD46000FF3FC /* Build configuration list for PBXNativeTarget "MorseoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A2926519E2FD46000FF3FC /* Debug */,
+				D8A2926619E2FD46000FF3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8A2922819E2FD46000FF3FC /* Project object */;
+}
