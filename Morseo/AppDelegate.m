@@ -24,4 +24,8 @@
     [self.mainWindow center];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
+}
+
 @end
