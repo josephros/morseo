@@ -10,6 +10,8 @@
 
 @implementation MainView
 
+
+
 - (id)initWithFrame:(NSRect)frame
 {
     self = [super initWithFrame:frame];
@@ -21,9 +23,7 @@
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-	[super drawRect:dirtyRect];
-	
-    // Drawing code here.
+    NSLog(@"draw");
 }
 
 @end

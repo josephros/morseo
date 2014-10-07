@@ -10,9 +10,18 @@
 
 @implementation AppDelegate
 
+@synthesize mainWindow;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSRect frame = NSMakeRect(0, 0, 500, 400);
+    self.mainWindow  = [[MorseoWindow alloc] initWithContentRect:frame
+                                              styleMask:(NSTitledWindowMask|NSClosableWindowMask|NSResizableWindowMask)
+                                              backing:NSBackingStoreBuffered
+                                              defer:NO];
+    
+    [self.mainWindow makeKeyAndOrderFront:NSApp];
+    [self.mainWindow center];
 }
 
 @end

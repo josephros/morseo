@@ -8,8 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "MorseoWindow.h"
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, strong) MorseoWindow *mainWindow;
 
 @end
+
+

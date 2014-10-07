@@ -8,7 +8,18 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "AppDelegate.h"
+
 int main(int argc, const char * argv[])
 {
-    return NSApplicationMain(argc, argv);
+    //NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    
+    id delegate = [[AppDelegate alloc] init];
+    [[NSApplication sharedApplication] setDelegate:delegate];
+    
+    [[NSApplication sharedApplication] run];
+    
+    //[pool release];
+    
+    return 0;
 }

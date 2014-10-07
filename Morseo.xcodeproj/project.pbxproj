@@ -12,7 +12,6 @@
 		D8A2924019E2FD46000FF3FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2923F19E2FD46000FF3FC /* main.m */; };
 		D8A2924419E2FD46000FF3FC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D8A2924219E2FD46000FF3FC /* Credits.rtf */; };
 		D8A2924719E2FD46000FF3FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2924619E2FD46000FF3FC /* AppDelegate.m */; };
-		D8A2924A19E2FD46000FF3FC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A2924819E2FD46000FF3FC /* MainMenu.xib */; };
 		D8A2924C19E2FD46000FF3FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A2924B19E2FD46000FF3FC /* Images.xcassets */; };
 		D8A2925319E2FD46000FF3FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A2925219E2FD46000FF3FC /* XCTest.framework */; };
 		D8A2925419E2FD46000FF3FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A2923319E2FD46000FF3FC /* Cocoa.framework */; };
@@ -22,8 +21,8 @@
 		D8A2927019E308CA000FF3FC /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A2926F19E308CA000FF3FC /* Quartz.framework */; };
 		D8A2927319E313B9000FF3FC /* MorseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2927219E313B9000FF3FC /* MorseView.m */; };
 		D8A2927619E313EA000FF3FC /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2927519E313EA000FF3FC /* MainView.m */; };
-		D8A2927C19E317D5000FF3FC /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2927B19E317D5000FF3FC /* MyWindow.m */; };
 		D8B3766819E376A10076A666 /* CGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B3766719E376A10076A666 /* CGUtil.m */; };
+		D8D5D90D19E46ADC00113A2D /* MorseoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D5D90C19E46ADC00113A2D /* MorseoWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +48,6 @@
 		D8A2924319E2FD46000FF3FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D8A2924519E2FD46000FF3FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8A2924619E2FD46000FF3FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D8A2924919E2FD46000FF3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D8A2924B19E2FD46000FF3FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8A2925119E2FD46000FF3FC /* MorseoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A2925219E2FD46000FF3FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,10 +60,10 @@
 		D8A2927219E313B9000FF3FC /* MorseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseView.m; sourceTree = "<group>"; };
 		D8A2927419E313EA000FF3FC /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		D8A2927519E313EA000FF3FC /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
-		D8A2927A19E317D5000FF3FC /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
-		D8A2927B19E317D5000FF3FC /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
 		D8B3766619E376A10076A666 /* CGUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUtil.h; sourceTree = "<group>"; };
 		D8B3766719E376A10076A666 /* CGUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUtil.m; sourceTree = "<group>"; };
+		D8D5D90B19E46ADC00113A2D /* MorseoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseoWindow.h; sourceTree = "<group>"; };
+		D8D5D90C19E46ADC00113A2D /* MorseoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseoWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,13 +137,10 @@
 				D8B3766519E376880076A666 /* Utils */,
 				D8A2924519E2FD46000FF3FC /* AppDelegate.h */,
 				D8A2924619E2FD46000FF3FC /* AppDelegate.m */,
-				D8A2924819E2FD46000FF3FC /* MainMenu.xib */,
-				D8A2927419E313EA000FF3FC /* MainView.h */,
-				D8A2927519E313EA000FF3FC /* MainView.m */,
+				D8D5D90B19E46ADC00113A2D /* MorseoWindow.h */,
+				D8D5D90C19E46ADC00113A2D /* MorseoWindow.m */,
 				D8A2924B19E2FD46000FF3FC /* Images.xcassets */,
 				D8A2923A19E2FD46000FF3FC /* Supporting Files */,
-				D8A2927A19E317D5000FF3FC /* MyWindow.h */,
-				D8A2927B19E317D5000FF3FC /* MyWindow.m */,
 			);
 			path = Morseo;
 			sourceTree = "<group>";
@@ -202,6 +197,8 @@
 			children = (
 				D8A2927119E313B9000FF3FC /* MorseView.h */,
 				D8A2927219E313B9000FF3FC /* MorseView.m */,
+				D8A2927419E313EA000FF3FC /* MainView.h */,
+				D8A2927519E313EA000FF3FC /* MainView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -285,7 +282,6 @@
 				D8A2923E19E2FD46000FF3FC /* InfoPlist.strings in Resources */,
 				D8A2924C19E2FD46000FF3FC /* Images.xcassets in Resources */,
 				D8A2924419E2FD46000FF3FC /* Credits.rtf in Resources */,
-				D8A2924A19E2FD46000FF3FC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +302,8 @@
 			files = (
 				D8A2924719E2FD46000FF3FC /* AppDelegate.m in Sources */,
 				D8A2927619E313EA000FF3FC /* MainView.m in Sources */,
+				D8D5D90D19E46ADC00113A2D /* MorseoWindow.m in Sources */,
 				D8A2927319E313B9000FF3FC /* MorseView.m in Sources */,
-				D8A2927C19E317D5000FF3FC /* MyWindow.m in Sources */,
 				D8A2924019E2FD46000FF3FC /* main.m in Sources */,
 				D8B3766819E376A10076A666 /* CGUtil.m in Sources */,
 			);
@@ -346,14 +342,6 @@
 				D8A2924319E2FD46000FF3FC /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		D8A2924819E2FD46000FF3FC /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8A2924919E2FD46000FF3FC /* Base */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		D8A2925A19E2FD46000FF3FC /* InfoPlist.strings */ = {
