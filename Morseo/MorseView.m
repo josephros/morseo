@@ -166,27 +166,6 @@ CABasicAnimation *_sequenceAnimation;
     CGContextStrokePath(ctx);
 }
 
--(void)viewWillMoveToSuperview:(NSView *)newSuperview {
-    /** Test Sequence Data **/
-    
-    float offset = 0;
-    NSMutableArray *testSequence = [NSMutableArray array];
-    for (NSUInteger i = 0; i <= 100; i++) {
-        float time = (float)arc4random_uniform(10)/10;
-        if (i % 2 == 0) time = 0.25;
-        
-        offset += time;
-        [testSequence setObject:[NSNumber numberWithFloat:offset] atIndexedSubscript:i];
-    }
-    
-    [self setSequence:testSequence];
-}
-
--(void)viewDidMoveToSuperview {
-   [self playSequence];
-}
-
-
 -(void)setFrame:(NSRect)frameRect {
     [super setFrame:frameRect];
     [_midlineLayer setFrame:frameRect];
